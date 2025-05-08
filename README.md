@@ -17,6 +17,7 @@ A basic web application to collect and manage student information using just HTM
 Just open `index.html` in your browser. No setup or server required.
 
 ## Screenshots
+![3yRgwvzEMZ](https://github.com/user-attachments/assets/1830bffc-b1e7-4c3b-8842-14cfa7c09e49)
 
 
 ---

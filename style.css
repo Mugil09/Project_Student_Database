@@ -1,0 +1,112 @@
+/* Container Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f4f6f8;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(0, 191, 255), rgb(230, 5, 230))
+}
+
+.main_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_box {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 10px black;
+  margin: 50px 0px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Table Styling */
+.input_box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.input_box th,
+.input_box td {
+  text-align: left;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.input_box th {
+  width: 30%;
+  font-weight: normal;
+}
+
+.input_box input[type="text"],
+.input_box input[type="number"],
+.input_box input[type="email"],
+.input_box select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.input_box input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  width: 260px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Display Table Styling */
+#table_ table {
+  width: 90%;
+  border-collapse: collapse;
+  box-shadow: 0px 10px 10px black;
+  background-color: white;
+  margin-top: 20px;
+}
+
+#table_ th,
+#table_ td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#table_ th {
+  background-color: #007bff;
+  color: white;
+}
+
+#table_ td button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#table_ td button:hover {
+  background-color: #c82333;
+}
